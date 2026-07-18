@@ -43,3 +43,5 @@ src/
 - Answers are posted as `{ questionId, answerValue }`, matching the sample payload in the backend README.
 - `patientAge` and `patientGender` are required by the API and validated client-side before moving to the symptom step.
 - If a symptom's questions include a type outside `single-select` / `multi-select` / `number-input` / `text-input`, it falls back to a free-text field so nothing breaks if new types get added later.
+
+<!-- deploy test 07/18/2026 15:04:58 -->
